@@ -21,4 +21,4 @@ const galleryImages = images.map(createGallery).join(" ");
 const galleryList = document.querySelector(".gallery");
 
 galleryList.insertAdjacentHTML("beforeend", galleryImages);
-galleryList.setAttribute("style", "list-style-type:none; display: flex; justify-content: space-between");
+galleryList.setAttribute("style", "list-style-type:none; display: flex; gap: 30px;");

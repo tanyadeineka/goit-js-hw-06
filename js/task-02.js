@@ -7,7 +7,7 @@ const ingredients = [
   'Condiments',
 ];
 
-const ulList = document.getElementById("ingredients");
+const ulList = document.querySelector("#ingredients");
 
 const liArray = ingredients.map((ingredient) => {
   const liItem = document.createElement("li");
