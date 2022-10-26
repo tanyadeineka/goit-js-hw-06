@@ -1,4 +1,4 @@
-const inputEl = document.getElementById("validation-input");
+const inputEl = document.querySelector("#validation-input");
 const lengthEl = inputEl.getAttribute("data-length");
 
 function inputElBlur() {

@@ -1,6 +1,6 @@
-const controlFont = document.getElementById("font-size-control");
+const controlFont = document.querySelector("#font-size-control");
 
-const text = document.getElementById("text");
+const text = document.querySelector("#text");
 
 function changeFontSize() {
     text.setAttribute("style", `font-size: ${controlFont.value}px`);
